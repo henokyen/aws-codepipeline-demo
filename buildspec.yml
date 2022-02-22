@@ -1,5 +1,5 @@
 version: 0.2
-pahses:
+phases:
   install:
     command:
       - echo installing node 17x.
@@ -19,8 +19,8 @@ pahses:
       - yarn test
       - echo building
       - yarn build
-artifact:
+artifacts:
   files:
     - "**/*"
-  discard-path: no
+  discard-paths: no
   base-directory: dist
