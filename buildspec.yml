@@ -2,7 +2,7 @@ version: 0.2
 pahses:
   install:
     command:
-      - echo nstalling node 17x.
+      - echo installing node 17x.
       - curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
       - apt install -y nodejs
       - echo installing yarn
